@@ -6,6 +6,7 @@ const people = [
 
 people.forEach((person, index) => {
   console.log(person.name);
+  console.log(person.country);
 });
 
 // Console Methods
