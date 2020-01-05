@@ -29,6 +29,10 @@ function doctorize(name) {
   return `Dr. ${name}`;
 }
 
+function doesntExist() {
+  return 'i am defined';
+}
+
 function greet(name) {
   doesntExist();
   return `Hello ${name}`;
