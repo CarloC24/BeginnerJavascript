@@ -5,9 +5,15 @@ const people = [
 ];
 
 people.forEach((person, index) => {
-  console.log(person.name);
-  console.log(person.country);
+  // console.warn .log .error .group .groupCollapsed
+  // console.groupCollapsed(person.name);
+  // console.log(person.name);
+  // console.log(person.cool);
+  // console.log(person.country);
+  // console.groupEnd(person.name);
 });
+
+console.table(people);
 
 // Console Methods
 
@@ -26,6 +32,7 @@ people.forEach((person, index) => {
 // Some Setup Code
 
 function doctorize(name) {
+  // console.count('running doctorize'); // will give the number how many times a function is being ran
   return `Dr. ${name}`;
 }
 
@@ -45,6 +52,7 @@ function go() {
 
 const button = document.querySelector('.bigger');
 button.addEventListener('click', function(e) {
+  console.log(e.currentTarget.style, 'this is the computer style');
   const newFontSize =
     parseFloat(getComputedStyle(e.currentTarget).fontSize) + 1;
   e.currentTarget.style.fontSize = `${newFontSize}px`;
