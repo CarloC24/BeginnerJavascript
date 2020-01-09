@@ -7,7 +7,7 @@
 //   console.log(myAge);
 //   console.log(hair);
 // }
-
+// finished scope lesson
 // go();
 /* eslint-disable*/
 
