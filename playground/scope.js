@@ -48,3 +48,6 @@ function sayHi(name) {
 
 
 yell();
+
+
+// finished scope lesson!
