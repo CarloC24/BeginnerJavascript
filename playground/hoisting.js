@@ -13,3 +13,5 @@ function sayHi() {
 }
 
 const add = (a, b) => a + b;
+
+// fninshed hoisting lesson
