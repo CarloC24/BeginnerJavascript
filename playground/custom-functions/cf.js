@@ -1,7 +1,16 @@
 // Function Definition
+
+function add(a = 1, b = 2) {
+  console.log(a + b);
+}
+
+add(undefined, 11);
+
+//undefined can be used to trigger the parameter default while null is equal to 0
+
 function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
   // this is the function body
-  console.log('Running Calculate Bill!!');
+  console.log("Running Calculate Bill!!");
   const total = billAmount + billAmount * taxRate + billAmount * tipRate;
   return total;
 }
@@ -23,7 +32,7 @@ function doctorize(name) {
   return `Dr. ${name}`;
 }
 
-function yell(name = 'Silly Goose') {
+function yell(name = "Silly Goose") {
   return `HEY ${name.toUpperCase()}`;
 }
 

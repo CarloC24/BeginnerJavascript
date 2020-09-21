@@ -1,8 +1,6 @@
 const butts = document.querySelector(".butts");
 const coolButton = document.querySelector(".cool");
 
-//researching
-
 function handleClick() {
   console.log("🐛 IT GOT CLICKED!!!");
 }
